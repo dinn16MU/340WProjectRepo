@@ -19,6 +19,17 @@ The project utilizes datasets from:
     Fbref.com: Player performance statistics.
     Transfermarkt: Market valuation data.
 
+    The data that was pulled from FBRef is in the SCRAPE CODE AND DATA folder. The scraper code is called updated_fbref_scrape.py and the results are the different datasets
+    with the prefix Big-5-European-Stats-....
+
+    The data is then taken and transformed in the data_transformation_Big_5.ipynb
+    this results in the Big_5_master which is then attached to the market value data. 
+
+    The final dataset is in its own folder called Final Data.
+
+    The EDA that is used is called DS340_EDA_with_split.ipynb
+    if there are issues, use DS340_EDA (2).ipynb
+
 Key Attributes
 
     Attackers: Goals, Shots on Target, xG (Expected Goals), and npxG (Non-Penalty Expected Goals).
